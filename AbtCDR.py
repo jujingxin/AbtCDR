@@ -12,9 +12,7 @@ class AbtCDR(nn.Module):
         self.device = args.device
         self.latent_dim = args.embed_size  
         self.n_layers = args.n_layers  
-        self.reg_weight = args.regs  
-        self.domain_lambda_source = args.lambda_s  
-        self.domain_lambda_target = args.lambda_t  
+        self.reg_weight = args.regs   
         self.drop_rate = args.drop_rate  
         self.connect_way = args.connect_type  
         self.t = args.t

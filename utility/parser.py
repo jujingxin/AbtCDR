@@ -73,7 +73,5 @@ def parse_args():
     parser.add_argument('--device', type=str, default="cuda")
     parser.add_argument('--drop_rate', type=float, default=0.1)
     parser.add_argument('--n_layers', type=int, default=3)
-    parser.add_argument('--lambda_s', type=float, default=0.8)
-    parser.add_argument('--lambda_t', type=float, default=0.8)
     parser.add_argument('--t', type=float, default=5)
     return parser.parse_args()
